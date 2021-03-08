@@ -1,0 +1,33 @@
+[08-May-2018 16:32:48 CST6CDT] PHP Parse error:  syntax error, unexpected '[' in /home/jlwebcre/public_html/js4-dev/private/initialize.php on line 35
+[08-May-2018 17:55:15 CST6CDT] PHP Warning:  unlink(/home/jlwebcre/public_html/js4-dev/public/users/uploads/LIHOU_jason_CV_2018-08-03.pdf): No such file or directory in /home/jlwebcre/public_html/js4-dev/public/users/apply_now.php on line 86
+[29-Jun-2018 04:04:21 CST6CDT] PHP Warning:  stream_socket_enable_crypto(): Peer certificate CN=`*.sgcpanel.com' did not match expected CN=`localhost' in /home/jlwebcre/public_html/js4-dev/public/PHPMailer_5.2.0/class.smtp.php on line 200
+[29-Jun-2018 04:07:21 CST6CDT] PHP Warning:  stream_socket_enable_crypto(): Peer certificate CN=`*.sgcpanel.com' did not match expected CN=`localhost' in /home/jlwebcre/public_html/js4-dev/public/PHPMailer_5.2.0/class.smtp.php on line 200
+[29-Jun-2018 05:02:03 CST6CDT] PHP Fatal error:  Uncaught Error: Class 'PHPMailer' not found in /home/jlwebcre/public_html/js4-dev/public/users/apply_now3.php:68
+Stack trace:
+#0 {main}
+  thrown in /home/jlwebcre/public_html/js4-dev/public/users/apply_now3.php on line 68
+[29-Jun-2018 05:20:13 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined method Mail::IsSMTP() in /home/jlwebcre/public_html/js4-dev/public/users/apply_now3.php:69
+Stack trace:
+#0 {main}
+  thrown in /home/jlwebcre/public_html/js4-dev/public/users/apply_now3.php on line 69
+[29-Jun-2018 05:24:39 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined method Mail::AddAddress() in /home/jlwebcre/public_html/js4-dev/public/users/apply_now3.php:79
+Stack trace:
+#0 {main}
+  thrown in /home/jlwebcre/public_html/js4-dev/public/users/apply_now3.php on line 79
+[03-Jul-2018 05:15:21 CST6CDT] PHP Parse error:  syntax error, unexpected end of file in /home/jlwebcre/public_html/js4-dev/public/users/apply_now3.php on line 229
+[03-Jul-2018 05:34:23 CST6CDT] PHP Warning:  require_once(../../usr/local/php56/pear/Mail.php): failed to open stream: No such file or directory in /home/jlwebcre/public_html/js4-dev/public/users/apply_now3.php on line 63
+[03-Jul-2018 05:34:23 CST6CDT] PHP Fatal error:  require_once(): Failed opening required '../../usr/local/php56/pear/Mail.php' (include_path='.:/usr/local/php72/pear') in /home/jlwebcre/public_html/js4-dev/public/users/apply_now3.php on line 63
+[03-Jul-2018 05:51:25 CST6CDT] PHP Warning:  require_once(../../usr/local/php56/pear/Mail.php): failed to open stream: No such file or directory in /home/jlwebcre/public_html/js4-dev/public/users/apply_now3.php on line 63
+[03-Jul-2018 05:51:25 CST6CDT] PHP Fatal error:  require_once(): Failed opening required '../../usr/local/php56/pear/Mail.php' (include_path='.:/usr/local/php72/pear') in /home/jlwebcre/public_html/js4-dev/public/users/apply_now3.php on line 63
+[23-Mar-2019 05:27:44 CST6CDT] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function show_job_location(), 0 passed in /home/jlwebcre/public_html/jobseeker/public/users/job_details.php on line 263 and exactly 1 expected in /home/jlwebcre/public_html/jobseeker/private/functions/query_functions.php:2960
+Stack trace:
+#0 /home/jlwebcre/public_html/jobseeker/public/users/job_details.php(263): show_job_location()
+#1 {main}
+  thrown in /home/jlwebcre/public_html/jobseeker/private/functions/query_functions.php on line 2960
+[23-Mar-2019 06:01:30 CST6CDT] PHP Parse error:  syntax error, unexpected '?' in /home/jlwebcre/public_html/jobseeker/public/users/index.php on line 12
+[23-Mar-2019 06:01:39 CST6CDT] PHP Parse error:  syntax error, unexpected '?' in /home/jlwebcre/public_html/jobseeker/public/users/index.php on line 12
+[01-Apr-2019 19:39:52 CST6CDT] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function show_job_location(), 0 passed in /home/jlwebcre/public_html/jobseeker/public/users/job_details.php on line 263 and exactly 1 expected in /home/jlwebcre/public_html/jobseeker/private/functions/query_functions.php:2960
+Stack trace:
+#0 /home/jlwebcre/public_html/jobseeker/public/users/job_details.php(263): show_job_location()
+#1 {main}
+  thrown in /home/jlwebcre/public_html/jobseeker/private/functions/query_functions.php on line 2960

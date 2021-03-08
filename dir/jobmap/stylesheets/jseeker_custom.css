@@ -1,0 +1,1175 @@
+/**
+ Job Seeker - Custom Override Styles */
+
+/*------------- GLOBALS ----------------- */
+
+/* // Resetting from the mobile up!
+//
+// Dropping the root* element font size to 14px is something
+// I do on almost all projects, a 16px font size on mobiles
+// is not normally needed. --> Only my opinion of course!
+//
+// At mobile size I used the scale "Major Second" from
+// type-scale.com to set out the heading sizes as well as the
+// "Major Third" scale for the .display-* classes however my
+// technique was to begin the scale from the h1's front size.
+// To do this simply do the h1 font size * scale size. So in
+// in this example it was 1.602 * 1.250 = 2.0025 I went with
+// 2em to keep it simple.
+//
+//------------------------------------------------------------// */
+
+html, body {
+    font-size: 14px !important;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #CDCDCD;
+    background: url(../images/background-pins.png);
+    background-size: cover;
+    background-attachment: fixed;
+    color: #212529;
+    /* resize: both; */
+}
+
+input[type="file"] {
+    display: none;
+}
+
+#fileSelectBtn, #cvfileSelectBtn {
+    width: 12em;
+    padding: 6px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px dashed #BBB;
+    text-align: center;
+    background-color: #DDD;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+/* PONToon button colours */
+
+.btn {
+    -o-transition: all 300ms ease-in-out;
+    -ms-transition: all 300ms ease-in-out;
+    -webkit-transition: all 300ms ease-in-out;
+    -moz-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+    vertical-align: top;
+}
+
+.text-orange {
+    background-color: white;
+    color: #e69911;
+    padding: 4px;
+}
+
+.btn-white-text-orange {
+    background-color: white;
+    color: #e69911;
+}
+
+.btn-orange {
+    background-color: #e69911;
+    color: white;
+}
+
+.btn-red {
+    background-color: #e8491f;
+    color: white;
+}
+
+.btn-teal {
+    background-color: #36b6b0;
+    color: white;
+}
+
+.btn-blue {
+    background-color: #7fb9e6;
+    color: white;
+}
+
+.btn-green {
+    background-color: #b2cf65;
+    color: white;
+}
+
+/* PONToon background colours */
+
+.bg-orange {
+    background-color: #e69911;
+}
+
+.bg-red {
+    background-color: #e8491f;
+}
+
+.bg-teal {
+    background-color: #36b6b0;
+}
+
+.bg-blue {
+    background-color: #7fb9e6;
+}
+
+.bg-green {
+    background-color: #b2cf65;
+}
+
+.btn:hover, a:hover {
+    transition: all 500ms ease-in-out !important;
+}
+
+/* PONToon border colours */
+
+.border-orange {
+    border: solid 2px #e69911;
+}
+
+.border-red {
+    border: solid 2px #e8491f;
+}
+
+.border-teal {
+    border: solid 2px #36b6b0;
+}
+
+.border-blue {
+    border: solid 2px #7fb9e6;
+}
+
+.border-green {
+    border: solid 2px #b2cf65;
+}
+
+.cookiealert {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin: 0 !important;
+    z-index: 999;
+    opacity: 0;
+    border-radius: 0;
+    transform: translateY(100%);
+    transition: all 500ms ease-out;
+    color: #ecf0f1;
+    background: #212327;
+}
+
+.cookiealert.show {
+    opacity: 1;
+    transform: translateY(0%);
+    transition-delay: 1000ms;
+}
+
+.cookiealert a {
+    text-decoration: underline
+}
+
+.cookiealert .acceptcookies {
+    margin-left: 10px;
+    vertical-align: baseline;
+}
+
+.navbar-bg-orange {
+    background-color: #E69911;
+    -webkit-transition: all 0.3s ease-in-out 0.3s;
+    transition: all 0.3s ease-in-out 0.3s;
+}
+
+iframe.goog-te-banner-frame {
+    display: none !important;
+}
+
+.goog-logo-link {
+    display: none !important;
+}
+
+.goog-te-gadget {
+    color: transparent !important;
+}
+
+#map-canvas {
+    height: 75%;
+    width: 75%;
+}
+
+.jumbotron.trans {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.first-letter {
+    color: blue;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+span.first-letter::first-letter {
+    color: red;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Varela Round';
+}
+
+h1 {
+    font-size: 1.602em;
+}
+
+h2 {
+    font-size: 1.424em;
+}
+
+h3 {
+    font-size: 1.266em;
+}
+
+h4 {
+    font-size: 1.125em;
+}
+
+h5 {
+    font-size: 1.0em;
+}
+
+h6 {
+    font-size: 0.79em;
+}
+
+/* .display-1, .display-2, .display-3, .display-4 {
+  font-family: inherit;
+} */
+
+.display-1 {
+    font-size: 3.906em;
+}
+
+.display-2 {
+    font-size: 3.125em;
+}
+
+.display-3 {
+    font-size: 2.5em;
+}
+
+.display-4 {
+    font-size: 2em;
+}
+
+/* a:link, a:visited, a:hover, a:active {
+    color: #000;
+} */
+
+a {
+    /* color: inherit; */
+    text-decoration: none;
+    -o-transition: all 300ms ease-in-out;
+    -ms-transition: all 300ms ease-in-out;
+    -webkit-transition: all 300ms ease-in-out;
+    -moz-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+}
+
+a:hover, a:focus {
+    /* color: inherit; */
+    text-decoration: none;
+    -o-transition: all 300ms ease-in-out;
+    -ms-transition: all 300ms ease-in-out;
+    -webkit-transition: all 300ms ease-in-out;
+    -moz-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+}
+
+.btn-outline-pt-orange {
+    color: #E8491F;
+    background-color: transparent;
+    background-image: none;
+    border-color: #E8491F;
+}
+
+.btn-outline-pt-orange:hover {
+    color: #fff;
+    background-color: #E8491F;
+    border-color: #E8491F;
+}
+
+.btn-outline-pt-orange:focus, .btn-outline-pt-orange.focus {
+    box-shadow: 0 0 0 0.2rem rgba(232, 73, 31, 0.5);
+}
+
+.btn-outline-pt-orange.disabled, .btn-outline-pt-orange:disabled {
+    color: #E8491F;
+    background-color: transparent;
+}
+
+.btn-outline-pt-orange:not(:disabled):not(.disabled):active, .btn-outline-pt-orange:not(:disabled):not(.disabled).active, .show>.btn-outline-pt-orange.dropdown-toggle {
+    color: #fff;
+    background-color: #E8491F;
+    border-color: #E8491F;
+}
+
+.btn-outline-pt-orange:not(:disabled):not(.disabled):active:focus, .btn-outline-pt-orange:not(:disabled):not(.disabled).active:focus, .show>.btn-outline-pt-orange.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(232, 73, 31, 0.5);
+}
+
+.jumbotron {
+    margin-bottom: 4rem;
+    padding: 2rem 2rem !important;
+}
+
+.accordion>.card .card-header {
+    margin-bottom: 0px !important;
+}
+
+/* .fa-pound-sign {
+    color: green;
+} */
+
+/* .fa-map-marker-alt {
+    color: blueviolet;
+} */
+
+.admin_map_popup {
+    max-width: 300px;
+}
+
+.ui-widget {
+    font-family: 'Open Sans';
+}
+
+#iw-container .iw-title {
+    width: 220px !important;
+    /* font-family: 'Open Sans Condensed', sans-serif; */
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0 4px;
+    background-color: #00aba9;
+    /* margin: 1px;
+   border-radius: 2px 2px 0 0; In accordance with the rounding of the default infowindow corners. */
+}
+
+img.company_logo_thumb {
+    width: 84px;
+    height: auto;
+}
+
+img.company_logo_med {
+    width: 128px;
+    height: auto;
+}
+
+img.company_logo_sml {
+    width: 64px;
+    height: auto;
+}
+
+img.profile_img {
+    width: 128px;
+    height: auto;
+}
+
+img.profile_img_sml {
+    width: 32px;
+    height: auto;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 90px;
+    height: 34px;
+}
+
+.switch input {
+    display: none;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ca2222;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 34px;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 50%;
+}
+
+input:checked+.slider {
+    background-color: #2ab934;
+}
+
+input:focus+.slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(55px);
+}
+
+.slider:after {
+    content: 'OFF';
+    color: white;
+    display: block;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 65%;
+    font-size: 0.8em;
+    /* font-family: Verdana, sans-serif; */
+}
+
+input:checked+.slider:after {
+    content: 'ON';
+    left: 35%;
+}
+
+.scrollTop {
+    background-color: #BE3F48;
+    border-radius: 6px;
+    bottom: 40px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bolder;
+    opacity: 0;
+    padding: 10px 20px;
+    position: fixed;
+    right: 2%;
+    text-decoration: none;
+    transition: all 0.4s ease-in-out 0.4s;
+    z-index: 9999;
+}
+
+.noresize {
+    resize: none;
+}
+
+.footer {
+    background-color: #f5f5f5;
+    bottom: 0;
+    height: auto;
+    left: 0;
+    line-height: 2em;
+    /* Vertically center the text there */
+    opacity: 1;
+    position: fixed;
+    transition: all 0.4s ease-in-out 0.4s;
+    width: 100%;
+    z-index: 9999;
+}
+
+/* Ajax Pagination */
+
+#spinner {
+    display: block;
+}
+
+.link {
+    padding: 10px 15px;
+    background: transparent;
+    border: #bccfd8 1px solid;
+    border-left: 0px;
+    cursor: pointer;
+    color: #607d8b
+}
+
+.disabled {
+    cursor: not-allowed;
+    color: #bccfd8;
+}
+
+.current {
+    background: #bccfd8;
+}
+
+.first {
+    border-left: #bccfd8 1px solid;
+}
+
+.dot {
+    padding: 10px 15px;
+    background: transparent;
+    border-right: #bccfd8 1px solid
+}
+
+#overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 999;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+#overlay div {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -32px;
+    margin-left: -32px;
+}
+
+.active {
+    color: rgb(13, 206, 13);
+}
+
+.inactive {
+    color: orange;
+}
+
+.card>img.co-logo {
+    width: 128px;
+    height: auto;
+}
+
+.tooltip-inner {
+    background-color: white;
+    border: 1px solid green;
+    color: #000;
+    opacity: 0.9;
+}
+
+.fa-fw {
+    margin-left: -5px;
+}
+
+.form-control:focus, .custom-select:focus {
+    background-color: #fff;
+    border-color: #E69911;
+    box-shadow: 0 0 0 0.2rem rgba(228, 152, 21, 0.5);
+    color: #495057;
+    outline: 0;
+}
+
+/* GOOGLE MAP*/
+
+#map {
+    height: 360px;
+    /* The orig height was 400 pixels */
+    width: 100%;
+    /* The width is the width of the web page */
+}
+
+#homeMap {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.pac-card {
+    margin: 10px 10px 0 0;
+    border-radius: 2px 0 0 2px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    outline: none;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    background-color: #fff;
+    font-family: Roboto;
+}
+
+#pac-container {
+    padding-bottom: 12px;
+    margin-right: 12px;
+}
+
+.pac-controls {
+    display: inline-block;
+    padding: 5px 11px;
+}
+
+.pac-controls label {
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+#pac-input {
+    background-color: #fff;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    margin-left: 12px;
+    padding: 0 11px 0 13px;
+    text-overflow: ellipsis;
+    width: 400px;
+}
+
+#pac-input:focus {
+    border-color: #4d90fe;
+}
+
+#title {
+    color: #fff;
+    background-color: #4d90fe;
+    font-size: 25px;
+    font-weight: 500;
+    padding: 6px 12px;
+}
+
+/* MAPBOX MAP*/
+
+/* #map {
+  position:relative;
+  /* left: 350px;
+  top:350px;
+  bottom:0px; */
+
+/* width:100%;
+  height:550px;
+} */
+
+.geocoder {
+    position: relative;
+    /* left: 350px;
+  top:290px; */
+}
+
+.goog-te-banner-frame {
+    top: 74px !important;
+    z-index: 999 !important;
+}
+
+/* jQuery Auto-complete style overides*/
+
+.ui-widget-content .ui-state-active, .ui-state-active:hover {
+    background-color: #36B6B0;
+    background-image: none;
+    border: 1px solid #7FB9E6;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.ui-autocomplete {
+    max-height: 100px;
+    /* prevent horizontal scrollbar */
+    overflow-x: hidden;
+    overflow-y: auto;
+    z-index: 1000;
+}
+
+/* IE 6 doesn't support max-height
+   * we use height instead, but this forces the menu to always be this tall
+   */
+
+* html .ui-autocomplete {
+    height: 100px;
+}
+
+/* Clear button styles
+--------------------------------------------- */
+
+::-ms-clear {
+    display: none;
+}
+
+.form-control-clear {
+    cursor: pointer;
+    pointer-events: auto;
+    z-index: 10;
+}
+
+#clearbutton, #clearbutton2 {
+    background: none;
+    border: none;
+    border-radius: 100%;
+    cursor: pointer;
+    outline: none;
+    position: absolute;
+    right: 8px;
+    top: 2px;
+    z-index: 999;
+}
+
+#clearbutton:before, #clearbutton2:before {
+    color: #FF931E;
+    content: '\f057';
+    font-family: "Font Awesome 5 Free";
+    font-size: 20px;
+    font-weight: bold;
+    background-color: white;
+}
+
+/* ----------- iPhone 5 and 5S ----------- */
+
+/* Portrait and Landscape */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+    /* html,	body {
+	background-color: orange;
+} */
+    html {
+        min-height: 100%;
+        position: relative;
+    }
+    .container>h1.text-center {
+        font-size: 1.3rem !important;
+    }
+    body>.container {
+        height: 100%;
+        padding-top: 90px;
+    }
+    .jumbotron {
+        margin-bottom: 4rem;
+        padding: 6px 6px !important;
+    }
+    /* .container {
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+} */
+    th, td {
+        font-size: 12px !important;
+    }
+    .scrollTop {
+        bottom: 10px;
+        padding: 4px 10px;
+    }
+}
+
+/* iPhone 5/5S LANDSCAPE  ----------- */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+    /* html,	body {
+	background-color: orange;
+} */
+    .container>h1.text-center {
+        font-size: 1.0rem !important;
+    }
+    .container>p.lead.text-center {
+        font-size: 0.8rem !important;
+    }
+    .container>img.home {
+        height: auto;
+        width: 24%;
+    }
+    .jumbotron {
+        margin-bottom: 4rem;
+        padding: 6px 6px !important;
+    }
+}
+
+/* iPhone 5/5S PORTRAIT  ----------- */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+    .container>h1.text-center {
+        font-size: 1.0rem !important;
+    }
+    .container>p.lead.text-center {
+        font-size: 0.8rem !important;
+    }
+    .container>img.home {
+        height: auto;
+        width: 24%;
+    }
+    .jumbotron {
+        margin-bottom: 4rem;
+        padding: 6px 6px !important;
+    }
+}
+
+/* iPhone 6,7,8 PORTRAIT & LANDSCAPE ----------- */
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+    /* html,	body {
+	background-color: tomato;
+} */
+    html {
+        min-height: 100%;
+        position: relative;
+    }
+    body>.container {
+        height: 100%;
+        padding-top: 85px;
+    }
+    .jumbotron {
+        margin-bottom: 4rem;
+        padding: 1rem 1rem !important;
+    }
+    .container>h1.text-center {
+        font-size: 1.3rem !important;
+    }
+    th, td {
+        font-size: 12px !important;
+    }
+    .scrollTop {
+        bottom: 10px;
+        padding: 4px 10px;
+    }
+}
+
+/* iPhone 6,7,8 LANDSCAPE */
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+    /* html,	body {
+	background-color: darkgreen;
+} */
+    .container>h1.text-center {
+        font-size: 1.6rem !important;
+    }
+}
+
+/* iPhone 6,7,8 PORTRAIT----------- */
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+    /* html,	body {
+	background-color: cornflowerblue;
+} */
+    .container>h1.text-center {
+        font-size: 1.6rem !important;
+    }
+}
+
+/* iPhone 6,7,8 PLUS PORTRAIT & LANDSCAPE ----------- */
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
+    /* html,	body {
+	background-color: rgb(93, 21, 226);
+} */
+    html {
+        min-height: 100%;
+        position: relative;
+    }
+    body>.container {
+        height: 100%;
+        padding-top: 70px;
+    }
+    .container>h1.text-center {
+        font-size: 2.0rem !important;
+    }
+    /* .container {
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+} */
+    th, td {
+        font-size: 12px !important;
+    }
+    .scrollTop {
+        bottom: 10px;
+    }
+}
+
+/* iPhone 6,7,8 PLUS LANDSCAPE  ----------- */
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+    .container>h1.text-center {
+        font-size: 1.6rem !important;
+    }
+    .container>img.home {
+        height: auto;
+        width: 60%;
+    }
+    body>.container {
+        height: 100%;
+        padding-top: 70px;
+    }
+}
+
+/* iPhone 6,7,8 PLUS PORTRAIT  ----------- */
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+    .container>h1.text-center {
+        font-size: 1.6rem !important;
+    }
+    .container>img.home {
+        height: auto;
+        width: 60%;
+    }
+    body>.container {
+        height: 100%;
+        padding-top: 70px;
+    }
+}
+
+/* iPhone X PORTRAIT & LANDSCAPE----------- */
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+    /* html,	body {
+	background-color: darkolivegreen;
+} */
+    html {
+        min-height: 100%;
+        position: relative;
+    }
+    body>.container {
+        height: 100%;
+        padding-top: 80px;
+    }
+    .container>h1.text-center {
+        font-size: 1.3rem !important;
+    }
+    /* .container {
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+} */
+    th, td {
+        font-size: 12px !important;
+    }
+    .scrollTop {
+        bottom: 10px;
+    }
+}
+
+/* iPhone X LANDSCAPE */
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+    html {
+        min-height: 100%;
+        position: relative;
+    }
+    body>.container {
+        height: 100%;
+        padding-top: 80px;
+    }
+}
+
+/* iPhone X PORTRAIT */
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+    html {
+        min-height: 100%;
+        position: relative;
+    }
+    body>.container {
+        height: 100%;
+        padding-top: 90px;
+    }
+}
+
+/*-----------------------------------------------------------------------------------------*/
+
+/*------------------------[Samsung Galaxy S6 PORTRAIT & LANDSCAPE]----------------------------------*/
+
+/*-----------------------------------------------------------------------------------------*/
+
+@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (-webkit-device-pixel-ratio: 4) {
+    /* html,	body {
+	background-color: burlywood;
+} */
+    body>.container {
+        padding-top: 90px;
+    }
+    .scrollTop {
+        bottom: 6px;
+        padding: 6px 10px;
+        right: 3%;
+    }
+}
+
+/*-----------------------------------------------------------------------------------------*/
+
+/*------------------------[Samsung Galaxy S6 LANDSCAPE]----------------------------------*/
+
+/*-----------------------------------------------------------------------------------------*/
+
+@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 4) {
+    /*-----------------[GLOBAL]---------------- */
+}
+
+/*-----------------------------------------------------------------------------------------*/
+
+/*------------------------[Samsung Galaxy S6 PORTRAIT]----------------------------------*/
+
+/*-----------------------------------------------------------------------------------------*/
+
+@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 4) {
+    /*-----------------[GLOBAL]---------------- */
+}
+
+/* // Medium devices (tablets, 48em (768 to 991)
+//
+// At this point you have overridden Bootstraps rem's and are
+// into module based font sizes should you require it.
+//
+// I took a while over this change because I felt that there
+// is no reason why I cant use a modified scale on another
+// device size. So I did, the headings have now taken on
+// "Perfect Fourth" and the dislpay-* has been put to the
+// Bootstrap defaults.
+//
+//------------------------------------------------------------// */
+
+@media only screen and (min-device-width: 768px) and (max-device-height: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+    /* html,	body {
+	background-color: grey;
+} */
+    html {
+        min-height: 100%;
+        position: relative;
+    }
+    body>.container {
+        height: 100%;
+        padding-top: 90px;
+    }
+    .container>h1.text-center {
+        font-size: 2.8rem !important;
+    }
+    /* .container {
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+} */
+    th, td {
+        font-size: 14px !important;
+    }
+    .scrollTop {
+        bottom: 10px;
+    }
+}
+
+/* ----------- iPad 3, 4 and Pro 9.7" ----------- */
+
+/* Portrait and Landscape */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+    /* html,	body {
+	background-color: red;
+	} */
+}
+
+/* ----------- iPad Pro 10.5" ----------- */
+
+/* Portrait and Landscape */
+
+@media only screen and (min-device-width: 834px) and (max-device-width: 1112px) and (-webkit-min-device-pixel-ratio: 2) {}
+
+/* Landscape */
+
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+
+@media only screen and (min-device-width: 1112px) and (max-device-width: 1112px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {}
+
+/* Portrait */
+
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+
+@media only screen and (min-device-width: 834px) and (max-device-width: 834px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {}
+
+/* ----------- iPad Pro 12.9" ----------- */
+
+/* Portrait and Landscape */
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) {
+    /* html,	body {
+	background-color: red;
+} */
+    .scrollTop {
+        bottom: 6px;
+        right: 3%;
+    }
+}
+
+/* Landscape */
+
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+
+@media only screen and (min-device-width: 1366px) and (max-device-width: 1366px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {}
+
+/* Portrait */
+
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {}
+
+/* // Large devices (desktops, 62em (992px to 1199px)) */
+
+@media (min-width: 62em) {
+    /* html,	body {
+	background-color: green;
+} */
+    html {
+        min-height: 100%;
+        position: relative;
+    }
+    body>.container {
+        min-height: 100%;
+        padding-top: 100px;
+        /* margin-bottom:50px; */
+    }
+    body>.container-fluid {
+        height: 100%;
+        padding-top: 100px;
+        /* margin-bottom:50px; */
+    }
+    .container>h1.text-center {
+        font-size: 2.8rem !important;
+    }
+    .container>img.home {
+        height: auto;
+        width: 60%;
+    }
+}
+
+/* // Large devices (desktops, 62em (992px to 1199px)) Portrait Only */
+
+@media (min-width: 62em) and (orientation: portrait) {
+    .container>h1.text-center {
+        font-size: 2.8rem !important;
+    }
+}
+
+/* // Extra large devices (large desktops, 75em (1200 px) and up) */
+
+@media (min-width: 75em) {
+    /* html,	body {
+  background-color: #CDCDCD;
+  background: url(../images/PONToon_bg.png);
+  background-size: cover;
+  resize: both;
+
+} */
+    /* .b1 {
+  background: url(../images/PONToon_bg.png);
+  background-size: cover;
+  resize: both;
+} */
+    html {
+        min-height: 100%;
+        position: relative;
+    }
+    .container>h1.text-center {
+        font-size: 3.2rem !important;
+    }
+    /* .container {
+  padding-top:70px;
+  height: 100%;
+  margin-bottom:50px;
+} */
+    th, td {
+        font-size: 16px !important;
+    }
+    .video {
+        object-fit: fill !important;
+    }
+}

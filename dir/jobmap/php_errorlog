@@ -1,0 +1,82 @@
+[08-May-2018 04:30:03 CST6CDT] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; search has a deprecated constructor in /home/jlwebcre/public_html/js4-dev/private/search_query_functions.php on line 11
+[04-Jul-2018 04:53:49 CST6CDT] PHP Notice:  Undefined index: title in /home/jlwebcre/public_html/js4-dev/public/apply_now3.php on line 7
+[04-Jul-2018 04:53:49 CST6CDT] PHP Warning:  move_uploaded_file(public/users/uploads/w_goaa40.pdf): failed to open stream: No such file or directory in /home/jlwebcre/public_html/js4-dev/public/apply_now3.php on line 30
+[04-Jul-2018 04:53:49 CST6CDT] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/php1NjK0d' to 'public/users/uploads/w_goaa40.pdf' in /home/jlwebcre/public_html/js4-dev/public/apply_now3.php on line 30
+[04-Jul-2018 04:56:09 CST6CDT] PHP Notice:  Undefined index: title in /home/jlwebcre/public_html/js4-dev/public/apply_now3.php on line 7
+[04-Jul-2018 07:08:05 CST6CDT] PHP Notice:  Undefined index: title in /home/jlwebcre/public_html/js4-dev/public/apply_now3.php on line 7
+[04-Jul-2018 07:15:24 CST6CDT] PHP Notice:  Undefined index: title in /home/jlwebcre/public_html/js4-dev/public/apply_now3.php on line 7
+[05-Jul-2018 03:59:20 CST6CDT] PHP Notice:  Undefined index: title in /home/jlwebcre/public_html/js4-dev/public/apply_now3.php on line 7
+[05-Jul-2018 04:03:59 CST6CDT] PHP Notice:  Undefined index: title in /home/jlwebcre/public_html/js4-dev/public/apply_now3.php on line 7
+[05-Jul-2018 04:04:12 CST6CDT] PHP Notice:  Undefined index: title in /home/jlwebcre/public_html/js4-dev/public/apply_now3.php on line 7
+[05-Jul-2018 04:05:57 CST6CDT] PHP Notice:  Undefined index: title in /home/jlwebcre/public_html/js4-dev/public/apply_now3.php on line 7
+[05-Jul-2018 04:20:55 CST6CDT] PHP Notice:  Undefined index: title in /home/jlwebcre/public_html/js4-dev/public/apply_now3.php on line 7
+[05-Jul-2018 04:22:57 CST6CDT] PHP Notice:  Undefined index: title in /home/jlwebcre/public_html/js4-dev/public/apply_now3.php on line 7
+[05-Jul-2018 04:40:51 CST6CDT] PHP Notice:  Undefined index: title in /home/jlwebcre/public_html/js4-dev/public/apply_now3.php on line 7
+[11-Jul-2018 08:33:35 CST6CDT] PHP Notice:  Undefined index: title in /home/jlwebcre/public_html/js4-dev/public/apply_now3.php on line 123
+[11-Jul-2018 08:34:56 CST6CDT] PHP Notice:  Undefined index: title in /home/jlwebcre/public_html/js4-dev/public/apply_now3.php on line 123
+[11-Jul-2018 08:36:06 CST6CDT] PHP Notice:  Undefined index: title in /home/jlwebcre/public_html/js4-dev/public/apply_now3.php on line 133
+[11-Jul-2018 09:07:42 CST6CDT] PHP Notice:  Undefined index: job_title in /home/jlwebcre/public_html/js4-dev/public/apply_now3.php on line 128
+[11-Jul-2018 09:08:33 CST6CDT] PHP Notice:  Undefined index: job_title in /home/jlwebcre/public_html/js4-dev/public/apply_now3.php on line 10
+[11-Jul-2018 09:11:59 CST6CDT] PHP Notice:  Undefined index: title in /home/jlwebcre/public_html/js4-dev/public/apply_now3.php on line 7
+[11-Jul-2018 09:12:00 CST6CDT] PHP Notice:  Undefined index: job_title in /home/jlwebcre/public_html/js4-dev/public/apply_now3.php on line 126
+[11-Jul-2018 09:12:28 CST6CDT] PHP Notice:  Undefined index: job_title in /home/jlwebcre/public_html/js4-dev/public/apply_now3.php on line 9
+[11-Jul-2018 09:15:36 CST6CDT] PHP Notice:  Undefined index: job_title in /home/jlwebcre/public_html/js4-dev/public/apply_now3.php on line 125
+[11-Jul-2018 09:18:35 CST6CDT] PHP Notice:  Undefined index: title in /home/jlwebcre/public_html/js4-dev/public/apply_now3.php on line 7
+[11-Jul-2018 09:23:50 CST6CDT] PHP Notice:  Undefined index: job_title in /home/jlwebcre/public_html/js4-dev/public/apply_now3.php on line 10
+[11-Jul-2018 09:25:40 CST6CDT] PHP Notice:  Undefined index: title in /home/jlwebcre/public_html/js4-dev/public/apply_now3.php on line 7
+[11-Jul-2018 09:27:59 CST6CDT] PHP Notice:  Undefined index: job_title in /home/jlwebcre/public_html/js4-dev/public/apply_now3.php on line 7
+[11-Jul-2018 09:30:10 CST6CDT] PHP Notice:  Undefined index: job_title in /home/jlwebcre/public_html/js4-dev/public/apply_now3.php on line 7
+[11-Jul-2018 09:33:49 CST6CDT] PHP Notice:  Undefined index: title in /home/jlwebcre/public_html/js4-dev/public/apply_now3.php on line 7
+[11-Jul-2018 09:36:28 CST6CDT] PHP Notice:  Undefined index: title in /home/jlwebcre/public_html/js4-dev/public/apply_now3.php on line 7
+[11-Jul-2018 09:37:40 CST6CDT] PHP Notice:  Undefined index: title in /home/jlwebcre/public_html/js4-dev/public/apply_now3.php on line 7
+[11-Jul-2018 09:39:39 CST6CDT] PHP Notice:  Undefined index: title in /home/jlwebcre/public_html/js4-dev/public/apply_now3.php on line 7
+[11-Jul-2018 09:43:30 CST6CDT] PHP Notice:  Undefined index: title in /home/jlwebcre/public_html/js4-dev/public/apply_now3.php on line 7
+[13-Jul-2018 04:05:28 CST6CDT] PHP Notice:  Undefined index: title in /home/jlwebcre/public_html/js4-dev/public/apply_now3.php on line 7
+[13-Jul-2018 04:07:28 CST6CDT] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/jlwebcre/public_html/js4-dev/public/apply_now3.php on line 79
+[13-Jul-2018 04:11:37 CST6CDT] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/jlwebcre/public_html/js4-dev/public/apply_now3.php on line 79
+[13-Jul-2018 04:13:11 CST6CDT] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/jlwebcre/public_html/js4-dev/public/apply_now3.php on line 79
+[13-Jul-2018 04:16:19 CST6CDT] PHP Notice:  Undefined index: title in /home/jlwebcre/public_html/js4-dev/public/apply_now3.php on line 7
+[16-Jul-2018 04:13:14 CST6CDT] PHP Notice:  Undefined index: title in /home/jlwebcre/public_html/js4-dev/public/apply_now3.php on line 7
+[18-Jul-2018 05:29:26 CST6CDT] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/jlwebcre/public_html/js4-dev/public/job_details.php on line 102
+[18-Jul-2018 05:30:36 CST6CDT] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/jlwebcre/public_html/js4-dev/public/job_details.php on line 102
+[18-Jul-2018 09:21:36 CST6CDT] PHP Notice:  Undefined index: title in /home/jlwebcre/public_html/js4-dev/public/apply_now3.php on line 7
+[18-Jul-2018 09:25:27 CST6CDT] PHP Notice:  Undefined index: title in /home/jlwebcre/public_html/js4-dev/public/apply_now3.php on line 7
+[18-Jul-2018 09:36:34 CST6CDT] PHP Notice:  Undefined index: title in /home/jlwebcre/public_html/js4-dev/public/apply_now3.php on line 7
+[18-Jul-2018 09:36:34 CST6CDT] PHP Notice:  Undefined index: first_name in /home/jlwebcre/public_html/js4-dev/public/apply_now3.php on line 37
+[18-Jul-2018 09:36:34 CST6CDT] PHP Notice:  Undefined index: last_name in /home/jlwebcre/public_html/js4-dev/public/apply_now3.php on line 37
+[18-Jul-2018 09:45:01 CST6CDT] PHP Notice:  Undefined index: title in /home/jlwebcre/public_html/js4-dev/public/apply_now3.php on line 7
+[18-Jul-2018 09:57:34 CST6CDT] PHP Notice:  Undefined index: title in /home/jlwebcre/public_html/js4-dev/public/apply_now3.php on line 7
+[18-Jul-2018 10:09:17 CST6CDT] PHP Notice:  Undefined index: title in /home/jlwebcre/public_html/js4-dev/public/apply_now3.php on line 7
+[19-Jul-2018 07:48:53 CST6CDT] PHP Notice:  Undefined index: title in /home/jlwebcre/public_html/js4-dev/public/apply_now3.php on line 7
+[27-Jul-2018 02:31:28 CST6CDT] PHP Notice:  Undefined index: title in /home/jlwebcre/public_html/jobseeker/public/apply_now3.php on line 7
+[20-Aug-2018 05:25:14 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_real_escape_string() in /home/jlwebcre/public_html/jobseeker/public/gmaps-test.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/jlwebcre/public_html/jobseeker/public/gmaps-test.php on line 28
+[20-Aug-2018 05:25:19 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_real_escape_string() in /home/jlwebcre/public_html/jobseeker/public/gmaps-test.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/jlwebcre/public_html/jobseeker/public/gmaps-test.php on line 28
+[20-Aug-2018 05:27:08 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_real_escape_string() in /home/jlwebcre/public_html/jobseeker/public/gmaps-test.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/jlwebcre/public_html/jobseeker/public/gmaps-test.php on line 28
+[20-Aug-2018 05:29:38 CST6CDT] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/jlwebcre/public_html/jobseeker/public/gmaps-test.php on line 28
+[20-Aug-2018 05:31:19 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/jlwebcre/public_html/jobseeker/public/gmaps-test.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/jlwebcre/public_html/jobseeker/public/gmaps-test.php on line 34
+[11-Sep-2018 05:35:54 CST6CDT] PHP Notice:  Undefined index: rec_email in /home/jlwebcre/public_html/jobseeker/public/apply_now3.php on line 11
+[11-Sep-2018 05:36:13 CST6CDT] PHP Notice:  Undefined index: title in /home/jlwebcre/public_html/jobseeker/public/apply_now3.php on line 7
+[11-Sep-2018 05:36:13 CST6CDT] PHP Notice:  Undefined index: rec_email in /home/jlwebcre/public_html/jobseeker/public/apply_now3.php on line 11
+[11-Sep-2018 05:36:13 CST6CDT] PHP Notice:  Undefined index: rec_email in /home/jlwebcre/public_html/jobseeker/public/apply_now3.php on line 135
+[23-Mar-2019 04:57:54 CST6CDT] PHP Notice:  Undefined variable: usercv in /home/jlwebcre/public_html/jobseeker/public/apply_now.php on line 71
+[23-Mar-2019 05:05:11 CST6CDT] PHP Notice:  Undefined variable: usercv in /home/jlwebcre/public_html/jobseeker/public/apply_now.php on line 71
+[23-Mar-2019 05:24:25 CST6CDT] PHP Notice:  Undefined variable: usercv in /home/jlwebcre/public_html/jobseeker/public/apply_now.php on line 71
+[23-Mar-2019 05:30:19 CST6CDT] PHP Notice:  Undefined variable: usercv in /home/jlwebcre/public_html/jobseeker/public/apply_now.php on line 71
+[23-Mar-2019 05:55:10 CST6CDT] PHP Notice:  Undefined variable: usercv in /home/jlwebcre/public_html/jobseeker/public/apply_now.php on line 71
+[23-Mar-2019 06:00:23 CST6CDT] PHP Notice:  Undefined variable: usercv in /home/jlwebcre/public_html/jobseeker/public/apply_now.php on line 71
+[23-Mar-2019 06:01:40 CST6CDT] PHP Parse error:  syntax error, unexpected '?' in /home/jlwebcre/public_html/jobseeker/public/apply_now.php on line 8
+[23-Mar-2019 06:01:41 CST6CDT] PHP Parse error:  syntax error, unexpected '?' in /home/jlwebcre/public_html/jobseeker/private/functions/query_functions.php on line 644
+[23-Mar-2019 06:01:45 CST6CDT] PHP Parse error:  syntax error, unexpected '?' in /home/jlwebcre/public_html/jobseeker/private/functions/query_functions.php on line 644
+[23-Mar-2019 06:01:49 CST6CDT] PHP Parse error:  syntax error, unexpected '?' in /home/jlwebcre/public_html/jobseeker/public/index.php on line 46
