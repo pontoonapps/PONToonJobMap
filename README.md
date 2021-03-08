@@ -1,5 +1,5 @@
 # JobMap
- A web based app using Google maps API to show local jobs in the area. 
+The PONToon Job Map features an easy-to-use map that shows users job opportunities in their local area. Jobs can be searched by key phrases or distance and filtered through catagories. Job seekers can save jobs they're interested in, upload their CV and apply directly though the site. Recruiters can upload their jobs individually or through a mass upload.
 
 <p align="center">
   <img src="interregLogo.png" width="400" title="Interreg Logo">
