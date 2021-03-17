@@ -24,3 +24,7 @@ To run this app you will need:
 1. [Pear Mail](https://pear.php.net/package/Mail/)
 2. [Bootstrap](https://getbootstrap.com/)
 3. [Google Maps API](https://developers.google.com/maps/documentation/javascript/overview)
+
+## More Information
+
+Visit our website for more information about the [PONToon Project](https://www.pontoonproject.eu/) 
